@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+sanane
 using namespace std;
 
 int main()
