@@ -18,15 +18,15 @@ int main()
     }
     else
     {
-        cout << "Do you have a driver's license? (Yes / No) ";
+        cout << "Do you have a driver's license? (Yes / No): ";
         cin >> driversLicense;
         cout << endl;
-        if (driversLicense == "Yes" || driversLicense == "yes")
+        if (driversLicense == "Yes" || driversLicense == "yes" || driversLicense == "y" || driversLicense == "Y")
         {
-            cout << "Are you a university graduate? (Yes / No) ";
+            cout << "Are you a university graduate? (Yes / No): ";
             cin >> universityGraduate;
 
-            if (universityGraduate == "Yes" || universityGraduate == "yes")
+            if (universityGraduate == "Yes" || universityGraduate == "yes" || universityGraduate == "y" || universityGraduate == "Y")
             {
                 cout << endl << "Congratulations, you have been hired. " << endl;
             }
